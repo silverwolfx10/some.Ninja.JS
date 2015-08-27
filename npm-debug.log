@@ -1,0 +1,555 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/v0.10.35/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/v0.10.35/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/home/ubuntu/workspace',
+5 verbose install   [ 'bower',
+5 verbose install     'gulp',
+5 verbose install     'gulp-concat',
+5 verbose install     'gulp-inject',
+5 verbose install     'gulp-uglify',
+5 verbose install     'underscore',
+5 verbose install     'underscore.string' ] ]
+6 info preinstall some.Ninja.JS@0.0.0
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'bower@^1.5.1', null ]
+9 verbose cache add name=undefined spec="bower@^1.5.1" args=["bower@^1.5.1",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'bower@^1.5.1',
+10 verbose parsed url   path: 'bower@^1.5.1',
+10 verbose parsed url   href: 'bower@^1.5.1' }
+11 verbose cache add [ 'gulp@^3.9.0', null ]
+12 verbose cache add name=undefined spec="gulp@^3.9.0" args=["gulp@^3.9.0",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'gulp@^3.9.0',
+13 verbose parsed url   path: 'gulp@^3.9.0',
+13 verbose parsed url   href: 'gulp@^3.9.0' }
+14 verbose cache add [ 'gulp-concat@^2.6.0', null ]
+15 verbose cache add name=undefined spec="gulp-concat@^2.6.0" args=["gulp-concat@^2.6.0",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'gulp-concat@^2.6.0',
+16 verbose parsed url   path: 'gulp-concat@^2.6.0',
+16 verbose parsed url   href: 'gulp-concat@^2.6.0' }
+17 verbose cache add [ 'gulp-inject@^1.5.0', null ]
+18 verbose cache add name=undefined spec="gulp-inject@^1.5.0" args=["gulp-inject@^1.5.0",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'gulp-inject@^1.5.0',
+19 verbose parsed url   path: 'gulp-inject@^1.5.0',
+19 verbose parsed url   href: 'gulp-inject@^1.5.0' }
+20 verbose cache add [ 'gulp-uglify@^1.3.0', null ]
+21 verbose cache add name=undefined spec="gulp-uglify@^1.3.0" args=["gulp-uglify@^1.3.0",null]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: 'gulp-uglify@^1.3.0',
+22 verbose parsed url   path: 'gulp-uglify@^1.3.0',
+22 verbose parsed url   href: 'gulp-uglify@^1.3.0' }
+23 verbose cache add name="bower" spec="^1.5.1" args=["bower","^1.5.1"]
+24 verbose parsed url { protocol: null,
+24 verbose parsed url   slashes: null,
+24 verbose parsed url   auth: null,
+24 verbose parsed url   host: null,
+24 verbose parsed url   port: null,
+24 verbose parsed url   hostname: null,
+24 verbose parsed url   hash: null,
+24 verbose parsed url   search: null,
+24 verbose parsed url   query: null,
+24 verbose parsed url   pathname: '^1.5.1',
+24 verbose parsed url   path: '^1.5.1',
+24 verbose parsed url   href: '^1.5.1' }
+25 verbose addNamed [ 'bower', '^1.5.1' ]
+26 verbose addNamed [ null, '>=1.5.1-0 <2.0.0-0' ]
+27 verbose cache add name="gulp" spec="^3.9.0" args=["gulp","^3.9.0"]
+28 verbose parsed url { protocol: null,
+28 verbose parsed url   slashes: null,
+28 verbose parsed url   auth: null,
+28 verbose parsed url   host: null,
+28 verbose parsed url   port: null,
+28 verbose parsed url   hostname: null,
+28 verbose parsed url   hash: null,
+28 verbose parsed url   search: null,
+28 verbose parsed url   query: null,
+28 verbose parsed url   pathname: '^3.9.0',
+28 verbose parsed url   path: '^3.9.0',
+28 verbose parsed url   href: '^3.9.0' }
+29 verbose addNamed [ 'gulp', '^3.9.0' ]
+30 verbose addNamed [ null, '>=3.9.0-0 <4.0.0-0' ]
+31 verbose cache add name="gulp-concat" spec="^2.6.0" args=["gulp-concat","^2.6.0"]
+32 verbose parsed url { protocol: null,
+32 verbose parsed url   slashes: null,
+32 verbose parsed url   auth: null,
+32 verbose parsed url   host: null,
+32 verbose parsed url   port: null,
+32 verbose parsed url   hostname: null,
+32 verbose parsed url   hash: null,
+32 verbose parsed url   search: null,
+32 verbose parsed url   query: null,
+32 verbose parsed url   pathname: '^2.6.0',
+32 verbose parsed url   path: '^2.6.0',
+32 verbose parsed url   href: '^2.6.0' }
+33 verbose addNamed [ 'gulp-concat', '^2.6.0' ]
+34 verbose addNamed [ null, '>=2.6.0-0 <3.0.0-0' ]
+35 verbose cache add name="gulp-inject" spec="^1.5.0" args=["gulp-inject","^1.5.0"]
+36 verbose parsed url { protocol: null,
+36 verbose parsed url   slashes: null,
+36 verbose parsed url   auth: null,
+36 verbose parsed url   host: null,
+36 verbose parsed url   port: null,
+36 verbose parsed url   hostname: null,
+36 verbose parsed url   hash: null,
+36 verbose parsed url   search: null,
+36 verbose parsed url   query: null,
+36 verbose parsed url   pathname: '^1.5.0',
+36 verbose parsed url   path: '^1.5.0',
+36 verbose parsed url   href: '^1.5.0' }
+37 verbose addNamed [ 'gulp-inject', '^1.5.0' ]
+38 verbose addNamed [ null, '>=1.5.0-0 <2.0.0-0' ]
+39 verbose cache add name="gulp-uglify" spec="^1.3.0" args=["gulp-uglify","^1.3.0"]
+40 verbose parsed url { protocol: null,
+40 verbose parsed url   slashes: null,
+40 verbose parsed url   auth: null,
+40 verbose parsed url   host: null,
+40 verbose parsed url   port: null,
+40 verbose parsed url   hostname: null,
+40 verbose parsed url   hash: null,
+40 verbose parsed url   search: null,
+40 verbose parsed url   query: null,
+40 verbose parsed url   pathname: '^1.3.0',
+40 verbose parsed url   path: '^1.3.0',
+40 verbose parsed url   href: '^1.3.0' }
+41 verbose addNamed [ 'gulp-uglify', '^1.3.0' ]
+42 verbose addNamed [ null, '>=1.3.0-0 <2.0.0-0' ]
+43 verbose cache add [ 'underscore@^1.8.3', null ]
+44 verbose cache add name=undefined spec="underscore@^1.8.3" args=["underscore@^1.8.3",null]
+45 verbose parsed url { protocol: null,
+45 verbose parsed url   slashes: null,
+45 verbose parsed url   auth: null,
+45 verbose parsed url   host: null,
+45 verbose parsed url   port: null,
+45 verbose parsed url   hostname: null,
+45 verbose parsed url   hash: null,
+45 verbose parsed url   search: null,
+45 verbose parsed url   query: null,
+45 verbose parsed url   pathname: 'underscore@^1.8.3',
+45 verbose parsed url   path: 'underscore@^1.8.3',
+45 verbose parsed url   href: 'underscore@^1.8.3' }
+46 verbose cache add [ 'underscore.string@^3.2.0', null ]
+47 verbose cache add name=undefined spec="underscore.string@^3.2.0" args=["underscore.string@^3.2.0",null]
+48 verbose parsed url { protocol: null,
+48 verbose parsed url   slashes: null,
+48 verbose parsed url   auth: null,
+48 verbose parsed url   host: null,
+48 verbose parsed url   port: null,
+48 verbose parsed url   hostname: null,
+48 verbose parsed url   hash: null,
+48 verbose parsed url   search: null,
+48 verbose parsed url   query: null,
+48 verbose parsed url   pathname: 'underscore.string@^3.2.0',
+48 verbose parsed url   path: 'underscore.string@^3.2.0',
+48 verbose parsed url   href: 'underscore.string@^3.2.0' }
+49 silly lockFile 48e32dfd-bower-1-5-1 bower@^1.5.1
+50 verbose lock bower@^1.5.1 /home/ubuntu/.npm/48e32dfd-bower-1-5-1.lock
+51 silly lockFile a7ccee77-gulp-3-9-0 gulp@^3.9.0
+52 verbose lock gulp@^3.9.0 /home/ubuntu/.npm/a7ccee77-gulp-3-9-0.lock
+53 silly lockFile 743f1d08-gulp-concat-2-6-0 gulp-concat@^2.6.0
+54 verbose lock gulp-concat@^2.6.0 /home/ubuntu/.npm/743f1d08-gulp-concat-2-6-0.lock
+55 silly lockFile 6382ef1c-gulp-inject-1-5-0 gulp-inject@^1.5.0
+56 verbose lock gulp-inject@^1.5.0 /home/ubuntu/.npm/6382ef1c-gulp-inject-1-5-0.lock
+57 silly lockFile 5d78a01c-gulp-uglify-1-3-0 gulp-uglify@^1.3.0
+58 verbose lock gulp-uglify@^1.3.0 /home/ubuntu/.npm/5d78a01c-gulp-uglify-1-3-0.lock
+59 verbose cache add name="underscore" spec="^1.8.3" args=["underscore","^1.8.3"]
+60 verbose parsed url { protocol: null,
+60 verbose parsed url   slashes: null,
+60 verbose parsed url   auth: null,
+60 verbose parsed url   host: null,
+60 verbose parsed url   port: null,
+60 verbose parsed url   hostname: null,
+60 verbose parsed url   hash: null,
+60 verbose parsed url   search: null,
+60 verbose parsed url   query: null,
+60 verbose parsed url   pathname: '^1.8.3',
+60 verbose parsed url   path: '^1.8.3',
+60 verbose parsed url   href: '^1.8.3' }
+61 verbose addNamed [ 'underscore', '^1.8.3' ]
+62 verbose addNamed [ null, '>=1.8.3-0 <2.0.0-0' ]
+63 silly lockFile 763d0bdd-underscore-1-8-3 underscore@^1.8.3
+64 verbose lock underscore@^1.8.3 /home/ubuntu/.npm/763d0bdd-underscore-1-8-3.lock
+65 verbose cache add name="underscore.string" spec="^3.2.0" args=["underscore.string","^3.2.0"]
+66 verbose parsed url { protocol: null,
+66 verbose parsed url   slashes: null,
+66 verbose parsed url   auth: null,
+66 verbose parsed url   host: null,
+66 verbose parsed url   port: null,
+66 verbose parsed url   hostname: null,
+66 verbose parsed url   hash: null,
+66 verbose parsed url   search: null,
+66 verbose parsed url   query: null,
+66 verbose parsed url   pathname: '^3.2.0',
+66 verbose parsed url   path: '^3.2.0',
+66 verbose parsed url   href: '^3.2.0' }
+67 verbose addNamed [ 'underscore.string', '^3.2.0' ]
+68 verbose addNamed [ null, '>=3.2.0-0 <4.0.0-0' ]
+69 silly lockFile 522fdbbd-underscore-string-3-2-0 underscore.string@^3.2.0
+70 verbose lock underscore.string@^3.2.0 /home/ubuntu/.npm/522fdbbd-underscore-string-3-2-0.lock
+71 silly addNameRange { name: 'bower', range: '>=1.5.1-0 <2.0.0-0', hasData: false }
+72 silly addNameRange { name: 'gulp', range: '>=3.9.0-0 <4.0.0-0', hasData: false }
+73 silly addNameRange { name: 'gulp-concat',
+73 silly addNameRange   range: '>=2.6.0-0 <3.0.0-0',
+73 silly addNameRange   hasData: false }
+74 silly addNameRange { name: 'gulp-inject',
+74 silly addNameRange   range: '>=1.5.0-0 <2.0.0-0',
+74 silly addNameRange   hasData: false }
+75 silly addNameRange { name: 'gulp-uglify',
+75 silly addNameRange   range: '>=1.3.0-0 <2.0.0-0',
+75 silly addNameRange   hasData: false }
+76 silly addNameRange { name: 'underscore',
+76 silly addNameRange   range: '>=1.8.3-0 <2.0.0-0',
+76 silly addNameRange   hasData: false }
+77 silly addNameRange { name: 'underscore.string',
+77 silly addNameRange   range: '>=3.2.0-0 <4.0.0-0',
+77 silly addNameRange   hasData: false }
+78 verbose request where is /gulp
+79 verbose request registry https://registry.npmjs.org/
+80 verbose request id afb47f8198b332bc
+81 verbose url raw /gulp
+82 verbose url resolving [ 'https://registry.npmjs.org/', './gulp' ]
+83 verbose url resolved https://registry.npmjs.org/gulp
+84 verbose request where is https://registry.npmjs.org/gulp
+85 info trying registry request attempt 1 at 17:38:02
+86 http GET https://registry.npmjs.org/gulp
+87 verbose request where is /gulp-concat
+88 verbose request registry https://registry.npmjs.org/
+89 verbose url raw /gulp-concat
+90 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-concat' ]
+91 verbose url resolved https://registry.npmjs.org/gulp-concat
+92 verbose request where is https://registry.npmjs.org/gulp-concat
+93 info trying registry request attempt 1 at 17:38:02
+94 http GET https://registry.npmjs.org/gulp-concat
+95 verbose request where is /gulp-inject
+96 verbose request registry https://registry.npmjs.org/
+97 verbose url raw /gulp-inject
+98 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-inject' ]
+99 verbose url resolved https://registry.npmjs.org/gulp-inject
+100 verbose request where is https://registry.npmjs.org/gulp-inject
+101 info trying registry request attempt 1 at 17:38:02
+102 http GET https://registry.npmjs.org/gulp-inject
+103 verbose request where is /gulp-uglify
+104 verbose request registry https://registry.npmjs.org/
+105 verbose url raw /gulp-uglify
+106 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-uglify' ]
+107 verbose url resolved https://registry.npmjs.org/gulp-uglify
+108 verbose request where is https://registry.npmjs.org/gulp-uglify
+109 info trying registry request attempt 1 at 17:38:02
+110 http GET https://registry.npmjs.org/gulp-uglify
+111 verbose request where is /bower
+112 verbose request registry https://registry.npmjs.org/
+113 verbose url raw /bower
+114 verbose url resolving [ 'https://registry.npmjs.org/', './bower' ]
+115 verbose url resolved https://registry.npmjs.org/bower
+116 verbose request where is https://registry.npmjs.org/bower
+117 info trying registry request attempt 1 at 17:38:02
+118 verbose etag "C859G7FDR7DRN2DE1KHPU9K98"
+119 http GET https://registry.npmjs.org/bower
+120 verbose request where is /underscore
+121 verbose request registry https://registry.npmjs.org/
+122 verbose url raw /underscore
+123 verbose url resolving [ 'https://registry.npmjs.org/', './underscore' ]
+124 verbose url resolved https://registry.npmjs.org/underscore
+125 verbose request where is https://registry.npmjs.org/underscore
+126 info trying registry request attempt 1 at 17:38:02
+127 verbose etag "4YOXLOVAOVP157T7CZ6ADBRR9"
+128 http GET https://registry.npmjs.org/underscore
+129 verbose request where is /underscore.string
+130 verbose request registry https://registry.npmjs.org/
+131 verbose url raw /underscore.string
+132 verbose url resolving [ 'https://registry.npmjs.org/', './underscore.string' ]
+133 verbose url resolved https://registry.npmjs.org/underscore.string
+134 verbose request where is https://registry.npmjs.org/underscore.string
+135 info trying registry request attempt 1 at 17:38:02
+136 verbose etag "42XVVLS85OA5X9B930MT3LD6Y"
+137 http GET https://registry.npmjs.org/underscore.string
+138 info retry will retry, error on last attempt: Error: connect ECONNREFUSED
+139 info retry will retry, error on last attempt: Error: connect ECONNREFUSED
+140 info retry will retry, error on last attempt: Error: connect ECONNREFUSED
+141 info retry will retry, error on last attempt: Error: connect ECONNREFUSED
+142 info retry will retry, error on last attempt: Error: connect ECONNREFUSED
+143 info retry will retry, error on last attempt: Error: connect ECONNREFUSED
+144 info retry will retry, error on last attempt: Error: connect ECONNREFUSED
+145 info trying registry request attempt 2 at 17:38:13
+146 http GET https://registry.npmjs.org/gulp
+147 info trying registry request attempt 2 at 17:38:13
+148 http GET https://registry.npmjs.org/gulp-inject
+149 info trying registry request attempt 2 at 17:38:13
+150 http GET https://registry.npmjs.org/gulp-concat
+151 info trying registry request attempt 2 at 17:38:13
+152 verbose etag "C859G7FDR7DRN2DE1KHPU9K98"
+153 http GET https://registry.npmjs.org/bower
+154 info trying registry request attempt 2 at 17:38:13
+155 http GET https://registry.npmjs.org/gulp-uglify
+156 info retry will retry, error on last attempt: Error: connect ECONNREFUSED
+157 info trying registry request attempt 2 at 17:38:14
+158 verbose etag "4YOXLOVAOVP157T7CZ6ADBRR9"
+159 http GET https://registry.npmjs.org/underscore
+160 info retry will retry, error on last attempt: Error: connect ECONNREFUSED
+161 info trying registry request attempt 2 at 17:38:14
+162 verbose etag "42XVVLS85OA5X9B930MT3LD6Y"
+163 http GET https://registry.npmjs.org/underscore.string
+164 info retry will retry, error on last attempt: Error: connect ECONNREFUSED
+165 info retry will retry, error on last attempt: Error: connect ECONNREFUSED
+166 info retry will retry, error on last attempt: Error: connect ECONNREFUSED
+167 info retry will retry, error on last attempt: Error: connect ECONNREFUSED
+168 info retry will retry, error on last attempt: Error: connect ECONNREFUSED
+169 info trying registry request attempt 3 at 17:39:14
+170 http GET https://registry.npmjs.org/gulp
+171 info trying registry request attempt 3 at 17:39:14
+172 http GET https://registry.npmjs.org/gulp-inject
+173 info trying registry request attempt 3 at 17:39:14
+174 http GET https://registry.npmjs.org/gulp-concat
+175 info trying registry request attempt 3 at 17:39:14
+176 verbose etag "C859G7FDR7DRN2DE1KHPU9K98"
+177 http GET https://registry.npmjs.org/bower
+178 info trying registry request attempt 3 at 17:39:14
+179 http GET https://registry.npmjs.org/gulp-uglify
+180 silly lockFile 6382ef1c-gulp-inject-1-5-0 gulp-inject@^1.5.0
+181 silly lockFile 6382ef1c-gulp-inject-1-5-0 gulp-inject@^1.5.0
+182 silly lockFile a7ccee77-gulp-3-9-0 gulp@^3.9.0
+183 silly lockFile a7ccee77-gulp-3-9-0 gulp@^3.9.0
+184 info trying registry request attempt 3 at 17:39:15
+185 verbose etag "4YOXLOVAOVP157T7CZ6ADBRR9"
+186 http GET https://registry.npmjs.org/underscore
+187 info trying registry request attempt 3 at 17:39:15
+188 verbose etag "42XVVLS85OA5X9B930MT3LD6Y"
+189 http GET https://registry.npmjs.org/underscore.string
+190 silly lockFile 743f1d08-gulp-concat-2-6-0 gulp-concat@^2.6.0
+191 silly lockFile 743f1d08-gulp-concat-2-6-0 gulp-concat@^2.6.0
+192 silly registry.get cb [ 304, undefined ]
+193 verbose etag https://registry.npmjs.org/bower from cache
+194 silly lockFile 5d78a01c-gulp-uglify-1-3-0 gulp-uglify@^1.3.0
+195 silly lockFile 5d78a01c-gulp-uglify-1-3-0 gulp-uglify@^1.3.0
+196 silly addNameRange number 2 { name: 'bower', range: '>=1.5.1-0 <2.0.0-0', hasData: true }
+197 silly addNameRange versions [ 'bower',
+197 silly addNameRange   [ '0.1.0',
+197 silly addNameRange     '0.1.2',
+197 silly addNameRange     '0.1.3',
+197 silly addNameRange     '0.2.0',
+197 silly addNameRange     '0.3.0',
+197 silly addNameRange     '0.3.1',
+197 silly addNameRange     '0.3.2',
+197 silly addNameRange     '0.4.0',
+197 silly addNameRange     '0.5.0',
+197 silly addNameRange     '0.5.1',
+197 silly addNameRange     '0.6.0',
+197 silly addNameRange     '0.6.1',
+197 silly addNameRange     '0.6.2',
+197 silly addNameRange     '0.6.3',
+197 silly addNameRange     '0.6.4',
+197 silly addNameRange     '0.6.5',
+197 silly addNameRange     '0.6.6',
+197 silly addNameRange     '0.6.7',
+197 silly addNameRange     '0.6.8',
+197 silly addNameRange     '0.7.0',
+197 silly addNameRange     '0.7.1',
+197 silly addNameRange     '0.8.0',
+197 silly addNameRange     '0.8.1',
+197 silly addNameRange     '0.8.2',
+197 silly addNameRange     '0.8.3',
+197 silly addNameRange     '0.8.4',
+197 silly addNameRange     '0.8.5',
+197 silly addNameRange     '0.8.6',
+197 silly addNameRange     '0.9.0',
+197 silly addNameRange     '0.9.1',
+197 silly addNameRange     '0.9.2',
+197 silly addNameRange     '0.10.0',
+197 silly addNameRange     '1.0.0',
+197 silly addNameRange     '1.0.1',
+197 silly addNameRange     '1.0.2',
+197 silly addNameRange     '1.0.3',
+197 silly addNameRange     '1.1.0',
+197 silly addNameRange     '1.1.1',
+197 silly addNameRange     '1.1.2',
+197 silly addNameRange     '1.2.0',
+197 silly addNameRange     '1.2.1',
+197 silly addNameRange     '1.2.2',
+197 silly addNameRange     '1.2.3',
+197 silly addNameRange     '1.2.4',
+197 silly addNameRange     '1.2.5',
+197 silly addNameRange     '1.2.6',
+197 silly addNameRange     '1.2.7',
+197 silly addNameRange     '1.2.8',
+197 silly addNameRange     '1.3.0',
+197 silly addNameRange     '1.3.1',
+197 silly addNameRange     '1.3.2',
+197 silly addNameRange     '1.3.3',
+197 silly addNameRange     '1.3.4',
+197 silly addNameRange     '1.3.5',
+197 silly addNameRange     '1.3.6',
+197 silly addNameRange     '1.3.7',
+197 silly addNameRange     '1.3.8',
+197 silly addNameRange     '1.3.9',
+197 silly addNameRange     '1.3.10',
+197 silly addNameRange     '1.3.11',
+197 silly addNameRange     '1.3.12',
+197 silly addNameRange     '1.4.0',
+197 silly addNameRange     '1.4.1' ] ]
+198 silly lockFile 48e32dfd-bower-1-5-1 bower@^1.5.1
+199 silly lockFile 48e32dfd-bower-1-5-1 bower@^1.5.1
+200 silly registry.get cb [ 304, undefined ]
+201 verbose etag https://registry.npmjs.org/underscore from cache
+202 silly addNameRange number 2 { name: 'underscore',
+202 silly addNameRange   range: '>=1.8.3-0 <2.0.0-0',
+202 silly addNameRange   hasData: true }
+203 silly addNameRange versions [ 'underscore',
+203 silly addNameRange   [ '1.0.3',
+203 silly addNameRange     '1.0.4',
+203 silly addNameRange     '1.1.0',
+203 silly addNameRange     '1.1.1',
+203 silly addNameRange     '1.1.2',
+203 silly addNameRange     '1.1.3',
+203 silly addNameRange     '1.1.4',
+203 silly addNameRange     '1.1.5',
+203 silly addNameRange     '1.1.6',
+203 silly addNameRange     '1.1.7',
+203 silly addNameRange     '1.2.0',
+203 silly addNameRange     '1.2.1',
+203 silly addNameRange     '1.2.2',
+203 silly addNameRange     '1.2.3',
+203 silly addNameRange     '1.2.4',
+203 silly addNameRange     '1.3.0',
+203 silly addNameRange     '1.3.1',
+203 silly addNameRange     '1.3.2',
+203 silly addNameRange     '1.3.3',
+203 silly addNameRange     '1.4.0',
+203 silly addNameRange     '1.4.1',
+203 silly addNameRange     '1.4.2',
+203 silly addNameRange     '1.4.3',
+203 silly addNameRange     '1.4.4',
+203 silly addNameRange     '1.5.0',
+203 silly addNameRange     '1.5.1',
+203 silly addNameRange     '1.5.2',
+203 silly addNameRange     '1.6.0',
+203 silly addNameRange     '1.7.0',
+203 silly addNameRange     '1.8.0',
+203 silly addNameRange     '1.8.1',
+203 silly addNameRange     '1.8.2',
+203 silly addNameRange     '1.8.3' ] ]
+204 verbose addNamed [ 'underscore', '1.8.3' ]
+205 verbose addNamed [ '1.8.3', '1.8.3' ]
+206 silly lockFile e5e32fca-underscore-1-8-3 underscore@1.8.3
+207 verbose lock underscore@1.8.3 /home/ubuntu/.npm/e5e32fca-underscore-1-8-3.lock
+208 silly lockFile d5ea30aa--underscore-underscore-1-8-3-tgz https://registry.npmjs.org/underscore/-/underscore-1.8.3.tgz
+209 verbose lock https://registry.npmjs.org/underscore/-/underscore-1.8.3.tgz /home/ubuntu/.npm/d5ea30aa--underscore-underscore-1-8-3-tgz.lock
+210 silly registry.get cb [ 304, undefined ]
+211 verbose etag https://registry.npmjs.org/underscore.string from cache
+212 verbose addRemoteTarball [ 'https://registry.npmjs.org/underscore/-/underscore-1.8.3.tgz',
+212 verbose addRemoteTarball   '4f3fb53b106e6097fcf9cb4109f2a5e9bdfa5022' ]
+213 info retry fetch attempt 1 at 17:39:16
+214 verbose fetch to= /tmp/npm-705-5vXbR1Pn/registry.npmjs.org/underscore/-/underscore-1.8.3.tgz
+215 silly addNameRange number 2 { name: 'underscore.string',
+215 silly addNameRange   range: '>=3.2.0-0 <4.0.0-0',
+215 silly addNameRange   hasData: true }
+216 silly addNameRange versions [ 'underscore.string',
+216 silly addNameRange   [ '0.9.2',
+216 silly addNameRange     '1.0.0',
+216 silly addNameRange     '1.1.3',
+216 silly addNameRange     '1.1.4',
+216 silly addNameRange     '1.1.5',
+216 silly addNameRange     '1.1.6',
+216 silly addNameRange     '2.0.0',
+216 silly addNameRange     '2.1.0',
+216 silly addNameRange     '2.1.1',
+216 silly addNameRange     '2.3.0',
+216 silly addNameRange     '2.3.1',
+216 silly addNameRange     '2.3.2',
+216 silly addNameRange     '2.2.1',
+216 silly addNameRange     '2.2.0-rc',
+216 silly addNameRange     '2.3.3',
+216 silly addNameRange     '2.4.0',
+216 silly addNameRange     '3.0.0',
+216 silly addNameRange     '3.0.1',
+216 silly addNameRange     '3.0.2',
+216 silly addNameRange     '3.0.3',
+216 silly addNameRange     '3.1.0',
+216 silly addNameRange     '3.1.1' ] ]
+217 silly lockFile 522fdbbd-underscore-string-3-2-0 underscore.string@^3.2.0
+218 silly lockFile 522fdbbd-underscore-string-3-2-0 underscore.string@^3.2.0
+219 http GET https://registry.npmjs.org/underscore/-/underscore-1.8.3.tgz
+220 error fetch failed https://registry.npmjs.org/underscore/-/underscore-1.8.3.tgz
+221 info retry will retry, error on last attempt: Error: connect ECONNREFUSED
+222 info retry fetch attempt 2 at 17:39:27
+223 verbose fetch to= /tmp/npm-705-5vXbR1Pn/registry.npmjs.org/underscore/-/underscore-1.8.3.tgz
+224 http GET https://registry.npmjs.org/underscore/-/underscore-1.8.3.tgz
+225 error fetch failed https://registry.npmjs.org/underscore/-/underscore-1.8.3.tgz
+226 info retry will retry, error on last attempt: Error: connect ECONNREFUSED
+227 info retry fetch attempt 3 at 17:40:28
+228 verbose fetch to= /tmp/npm-705-5vXbR1Pn/registry.npmjs.org/underscore/-/underscore-1.8.3.tgz
+229 http GET https://registry.npmjs.org/underscore/-/underscore-1.8.3.tgz
+230 error fetch failed https://registry.npmjs.org/underscore/-/underscore-1.8.3.tgz
+231 silly lockFile d5ea30aa--underscore-underscore-1-8-3-tgz https://registry.npmjs.org/underscore/-/underscore-1.8.3.tgz
+232 silly lockFile d5ea30aa--underscore-underscore-1-8-3-tgz https://registry.npmjs.org/underscore/-/underscore-1.8.3.tgz
+233 silly lockFile e5e32fca-underscore-1-8-3 underscore@1.8.3
+234 silly lockFile e5e32fca-underscore-1-8-3 underscore@1.8.3
+235 silly lockFile 763d0bdd-underscore-1-8-3 underscore@^1.8.3
+236 silly lockFile 763d0bdd-underscore-1-8-3 underscore@^1.8.3
+237 error Error: connect ECONNREFUSED
+237 error     at errnoException (net.js:905:11)
+237 error     at Object.afterConnect [as oncomplete] (net.js:896:19)
+237 error  { [Error: connect ECONNREFUSED]
+237 error   code: 'ECONNREFUSED',
+237 error   errno: 'ECONNREFUSED',
+237 error   syscall: 'connect',
+237 error   parent: 'some.Ninja.JS' }
+238 error If you are behind a proxy, please make sure that the
+238 error 'proxy' config is set properly.  See: 'npm help config'
+239 error System Linux 3.14.13-c9
+240 error command "/home/ubuntu/.nvm/v0.10.35/bin/node" "/home/ubuntu/.nvm/v0.10.35/bin/npm" "install"
+241 error cwd /home/ubuntu/workspace
+242 error node -v v0.10.35
+243 error npm -v 1.4.28
+244 error syscall connect
+245 error code ECONNREFUSED
+246 error errno ECONNREFUSED
+247 error stack Error: connect ECONNREFUSED
+247 error stack     at errnoException (net.js:905:11)
+247 error stack     at Object.afterConnect [as oncomplete] (net.js:896:19)
+248 verbose exit [ 1, true ]
