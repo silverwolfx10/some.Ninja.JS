@@ -1,4 +1,4 @@
-# some.Ninja.JS
+### $some
 
 Testa se algum elemento do array passa o teste implementado pela função fornecida a funcao curry
 
